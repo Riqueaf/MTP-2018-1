@@ -8,6 +8,7 @@ int main ()
 
 	printf("Digite um numero: ");
 	scanf("%s", &num);
+	getchar();
 	
 	int  a=0,mut=0;
 	
