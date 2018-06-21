@@ -46,13 +46,11 @@ int main(){
 	}
 	
 	if (ciclo == 0){
-		printf("\nO numero binario eh: %s", &bin);
-		printf("\nO numero e multiplo de 3.");
+		printf("\n%sO numero e multiplo de 3", &bin);
 	}
 	
 	else{
-		printf("\nO numero binario e: %s", &bin);
-		printf("\nO numero nao e multiplo de 3.");
+		printf("\n%sO numero nao e multiplo de 3", &bin);
 	}
 	
 	return 0;
